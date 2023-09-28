@@ -1,0 +1,58 @@
+body {
+
+                    margin: 0;
+                    
+}
+                    
+.ul { 
+    list-style-type: none;  
+    margin: 0%;              
+padding: 0; 
+background: #161616; 
+position: fixed;
+overflow: hidden;
+top: 0;
+width: 25%;
+height: 100;
+}
+.li{
+          float: left;          
+                    
+                    }
+                    
+.li a{
+                    
+                    display: block;
+                    color: #fff;
+                    padding: 10px 10px;
+                    text-decoration: none;
+                    
+}
+.a:hover:not(.active) {
+                    
+                    background-color: rgb(1, 16, 16);
+}
+.active{
+                    
+                    background: darkgreen;
+}
+img{
+                    width: 50%;
+height: 70%;
+align-items: center;
+}
+.text
+{
+                    text-align: center;
+}
+a[target="blank"]
+{
+                    text-decoration: none;
+                    color: chartreuse;
+                    font-weight: bold;
+}
+
+[class$="main"]
+{
+                    color: rgb(197, 117, 13);
+}
